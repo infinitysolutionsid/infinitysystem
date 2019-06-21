@@ -21,7 +21,7 @@
                           <th>Username</th>
                           <th>Full Name</th>
                         <th>Type</th>
-                        <th>Password</th>
+
                         <th>Status</th>
                         </tr>
                       </thead>
