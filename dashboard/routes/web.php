@@ -26,3 +26,12 @@ Route::get('/contact', function () {
 Route::get('/user', function () {
     return view('user');
 });
+Route::get('/add-user', function () {
+    return view('adduser');
+});
+Route::get('/authority', function () {
+    return view('authority');
+});
+Route::get('/add-authority', function () {
+    return view('addauthority');
+});

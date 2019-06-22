@@ -38,7 +38,7 @@
                 <span class="middle"></span>
                 <span class="bottom"></span>
               </div>
-                <a href="#" class="navbar-brand">
+                <a href="index.html" class="navbar-brand">
                  <b>INFINITYSYSTEM</b>
                 </a>
 
@@ -60,7 +60,7 @@
                   <li class="dropdown avatar-dropdown">
                    <img src="asset/img/avatar.jpg" class="img-circle avatar" alt="user name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"/>
                    <ul class="dropdown-menu user-dropdown">
-                     <li><a href="#"><span class="fa fa-user"></span> My Profile</a></li>
+                     <li><a href="/profile"><span class="fa fa-user"></span> My Profile</a></li>
                      <li role="separator" class="divider"></li>
                      <li class="more">
                       <ul>
@@ -90,7 +90,7 @@
                       <p class="animated fadeInRight">Sat,October 1st 2029</p>
                     </li>
                     <li class="active ripple">
-                      <a class="tree-toggle nav-header"><span class="fa-home fa"></span> Dashboard
+                      <a href="/home"><span class="fa-home fa"></span> Dashboard
                       </a>
                     </li>
                     <li class="ripple">
@@ -98,7 +98,7 @@
                         <span class="fa-diamond fa"></span> Master
                         <span class="fa-angle-right fa right-arrow text-right"></span>
                         <ul class="nav nav-list tree">
-                          <li><a href="/user">User</a></li>
+                          <li><a href="/user">User Management</a></li>
                           <li><a href="/authority">Authority</a></li>
                         </ul>
                       </a>
@@ -192,7 +192,7 @@
                 <div class="panel">
                   <div class="panel-body">
                       <div class="col-md-6 col-sm-12">
-                        <h3 class="animated fadeInLeft">Administrative Sales</h3>
+                        <h3 class="animated fadeInLeft">Welcome to Infinity System Administrative, users!</h3>
                         <p class="animated fadeInDown"><span class="fa  fa-map-marker"></span> Medan,Indonesia</p>
 
                         <!-- <ul class="nav navbar-nav">
