@@ -56,6 +56,7 @@ class So_Controller extends Controller
         $data_so = \App\Sales_Order::find($so_id);
         $data_detailso = DB::table('sales_order_details')
             ->join('items', 'sales_order_details.item_id', '=', 'items.item_id')
+            ->where('sales_order_details.so_id', '=', $data_so->so_id)
             ->select('sales_order_details.*', 'items.item_name')
             ->get();
         $itemList = DB::table('items')
@@ -64,9 +65,6 @@ class So_Controller extends Controller
         $datacustomer = \App\Customer_Model::all();
         $itemdata = \App\itemModel::all();
         return view('salesorder.details', ['data_detailso' => $data_detailso, 'data_so' => $data_so, 'datacustomer' => $datacustomer, 'itemdata' => $itemdata, 'itemList' => $itemList]);
-
-        // TEST DATA FRACTAL LARAVEL
-        // $so_id =
     }
     public function itemadd(Request $request)
     {
